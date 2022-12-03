@@ -1,5 +1,5 @@
 // Day 2 of Advent of Code 2022.
-// https://adventofcode.com/2021/day/2
+// https://adventofcode.com/2022/day/2
 
 fn part_one() {
     let rps = include_str!("rps.txt");

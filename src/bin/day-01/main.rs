@@ -1,5 +1,5 @@
 // Day 1 of Advent of Code 2022.
-// https://adventofcode.com/2021/day/1
+// https://adventofcode.com/2022/day/1
 
 fn part_one() {
     let calories = include_str!("cal.txt");
