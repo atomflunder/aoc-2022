@@ -1,5 +1,5 @@
-// Day 7 of Advent of Code 2022.
-// https://adventofcode.com/2022/day/7
+// Day 8 of Advent of Code 2022.
+// https://adventofcode.com/2022/day/8
 
 #[derive(Debug, Clone, Copy)]
 struct Tree {
@@ -7,6 +7,7 @@ struct Tree {
     coordinates: (usize, usize),
 }
 
+#[allow(clippy::needless_range_loop)]
 impl Tree {
     fn is_visible(&self, grid: &Vec<Vec<Tree>>) -> bool {
         if self.coordinates.0 == 0
