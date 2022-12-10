@@ -50,7 +50,7 @@ fn handle_turn(
 }
 
 fn handle_cycle(cycle: i32, x: i32, signal_strengths: &mut Vec<i32>, crt_display: &mut Crt) {
-    add_signal(cycle, x, signal_strengths);
+    add_signal(cycle + 1, x, signal_strengths);
     draw_pixel(cycle, x, crt_display);
 }
 
