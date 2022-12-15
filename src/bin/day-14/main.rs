@@ -1,3 +1,6 @@
+// Day 14 of Advent of Code 2022.
+// https://adventofcode.com/2022/day/14
+
 use std::cmp::{max, min};
 use std::collections::HashSet;
 
