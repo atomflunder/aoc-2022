@@ -1,3 +1,6 @@
+// Day 24 of Advent of Code 2022.
+// https://adventofcode.com/2022/day/24
+
 use std::collections::{hash_map, HashMap, HashSet, VecDeque};
 
 #[derive(Debug, PartialEq, Eq, Hash)]
